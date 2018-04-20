@@ -15,5 +15,5 @@ $ npm install
 Execute the getter.js file with node:
 
 ```
-$ node ./getter.js -u [file to download] -s [chunk size (defaults to 1MiB)] -f [output file]
+$ node ./getter.js -u https://example.com [-s chunk_size in bytes -f output_file -c number_of_chunks --out (print to the console) --help
 ```
